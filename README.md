@@ -57,7 +57,9 @@ sudo apt install postgresql postgresql-contrib
 service postgresql status
 ```
 The output should look like this:
-![template](img.png)
+
+<img width="669" alt="img" src="https://user-images.githubusercontent.com/102135015/184505235-5a861bc6-a74d-424d-9319-68dba69a0af0.png">
+
 - A “psql” command-line client tool is used to interact with the database engine. You should invoke it as a “postgres” user to start an interactive session with your local database.
 ```
 sudo -u postgres psql
