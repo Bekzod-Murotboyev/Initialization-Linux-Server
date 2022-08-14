@@ -66,7 +66,7 @@ sudo -u postgres psql
 ```
 - Since the default “postgres” user does not have a password, you should set it yourself.
 ```
-\password <Your Password>
+\password postgres
 ```
 ## 5. Install Node, npm and Yarn
 - You can find all version of those [here](https://github.com/nodesource/distributions), but my preferred is `Node.js LTS (v16.x)`
