@@ -34,7 +34,7 @@ sudo apt install maven
 ## *5. Install Postgresql*
 - First, you should install prerequisite software packages that will be used to download and install software certificates for a secure SSL connection.
  ```
-sudo apt install mvn
+sudo apt install wget ca-certificates
  ```
 - Then, get the certificate, add it to apt-key management utility and create a new configuration file with an official PostgreSQL repository address inside.
 ```
