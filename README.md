@@ -68,7 +68,7 @@ sudo -u postgres psql
 ```
 \password postgres
 ```
-## 5. Install Node, npm and Yarn
+## *6. Install Node, npm and Yarn*
 - You can find all version of those [here](https://github.com/nodesource/distributions), but my preferred is `Node.js LTS (v16.x)`
 
 ```
@@ -80,4 +80,10 @@ sudo apt-get install -y nodejs
 curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
      echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
      sudo apt-get update && sudo apt-get install yarn
+```
+
+## *7. Install tmux*
+- Tmux is a terminal multiplexer an alternative to GNU Screen . In other words, it means that you can start a Tmux session and then open multiple windows inside that session. Each window occupies the entire screen and can be split into rectangular panes.
+```
+sudo apt install tmux
 ```
