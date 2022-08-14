@@ -28,7 +28,7 @@ sudo apt install git
 ## *4. Install Maven and JAVA*
 - It installs both of Maven and Java
  ```
-sudo apt install mvn
+sudo apt install maven
  ```
 ---
 ## *5. Install Postgresql*
